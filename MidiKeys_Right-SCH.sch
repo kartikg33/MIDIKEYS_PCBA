@@ -3159,6 +3159,7 @@ type RDH, grid 15 mm</description>
 <hole x="0" y="0" drill="4.064"/>
 <pad name="LED+" x="-1.27" y="-5.08" drill="1.016" diameter="1.778"/>
 <pad name="LED-" x="1.27" y="-5.08" drill="1.016" diameter="1.778"/>
+<text x="-7.62" y="7.62" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>

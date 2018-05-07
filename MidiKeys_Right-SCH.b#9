@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -65,30 +65,6 @@
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
-<library name="switches-omron">
-<packages>
-<package name="B3J-1X00">
-<circle x="-4.5" y="0" radius="0.9" width="0" layer="39"/>
-<circle x="4.5" y="0" radius="0.9" width="0" layer="39"/>
-<pad name="P$2" x="-2.5" y="6.25" drill="1.2" first="yes"/>
-<pad name="P$4" x="2.5" y="6.25" drill="1.2"/>
-<pad name="P$1" x="-2.5" y="-6.25" drill="1.2" shape="square"/>
-<pad name="P$3" x="2.5" y="-6.25" drill="1.2"/>
-<wire x1="-6" y1="12" x2="-6" y2="-6" width="0.127" layer="21"/>
-<wire x1="-6" y1="12" x2="6" y2="12" width="0.127" layer="21"/>
-<wire x1="6" y1="12" x2="6" y2="-6" width="0.127" layer="21"/>
-<wire x1="-6" y1="12" x2="-6" y2="-6" width="0.127" layer="51"/>
-<wire x1="-6" y1="12" x2="6" y2="12" width="0.127" layer="51"/>
-<wire x1="-6" y1="-6" x2="6" y2="-6" width="0.127" layer="51"/>
-<wire x1="6" y1="12" x2="6" y2="-6" width="0.127" layer="51"/>
-<wire x1="-6" y1="-6" x2="-4" y2="-6" width="0.127" layer="21"/>
-<wire x1="4" y1="-6" x2="6" y2="-6" width="0.127" layer="21"/>
-<wire x1="-1" y1="-6" x2="1" y2="-6" width="0.127" layer="21"/>
-<text x="-6" y="12.4" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-6" y="-8.4" size="0.8128" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-</library>
 <library name="resistor">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -1178,6 +1154,25 @@ chip</description>
 </package>
 </packages>
 </library>
+<library name="cherrymx">
+<description>Cherry MX Keyswitch PCB footprints</description>
+<packages>
+<package name="CHERRY-MX-LED">
+<description>Cherry MX series keyswitch footprint with additional holes for LED</description>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.127" layer="21"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.127" layer="21"/>
+<pad name="SW1" x="-3.81" y="2.54" drill="1.524" diameter="2.286"/>
+<pad name="SW2" x="2.54" y="5.08" drill="1.524" diameter="2.286"/>
+<pad name="P$3" x="-5.08" y="0" drill="1.7144" diameter="1.9304"/>
+<pad name="P$4" x="5.08" y="0" drill="1.7144" diameter="1.9304"/>
+<hole x="0" y="0" drill="4.064"/>
+<pad name="LED+" x="-1.27" y="-5.08" drill="1.016" diameter="1.778"/>
+<pad name="LED-" x="1.27" y="-5.08" drill="1.016" diameter="1.778"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1368,37 +1363,53 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="S1" library="switches-omron" package="B3J-1X00" value="B3J-1000" x="-19.05" y="10.16"/>
-<element name="S3" library="switches-omron" package="B3J-1X00" value="B3J-1100" x="-19.05" y="33.02"/>
 <element name="R1" library="resistor" package="R0603" value="10k" x="-40.64" y="-8.89"/>
 <element name="R2" library="resistor" package="R0603" value="10k" x="-40.64" y="-15.24"/>
+<element name="U$1" library="cherrymx" package="CHERRY-MX-LED" value="CHERRY-MX-LED" x="-24.13" y="-34.29"/>
+<element name="U$2" library="cherrymx" package="CHERRY-MX-LED" value="CHERRY-MX-LED" x="-24.13" y="-64.77"/>
+<element name="R3" library="resistor" package="R0603" value="220R" x="-40.64" y="-82.55"/>
+<element name="R4" library="resistor" package="R0603" value="220R" x="-40.64" y="-88.9"/>
 </elements>
 <signals>
-<signal name="N$1">
+<signal name="KEY_C2">
 <contactref element="R1" pad="1"/>
-<contactref element="S1" pad="P$4"/>
-<wire x1="-16.55" y1="16.41" x2="-41.49" y2="-8.89" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SIG_C3">
-<contactref element="S1" pad="P$3"/>
+<contactref element="U$1" pad="SW1"/>
+<wire x1="-41.49" y1="-8.89" x2="-27.94" y2="-31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="R1" pad="2"/>
 <contactref element="R2" pad="2"/>
 <wire x1="-39.79" y1="-8.89" x2="-39.79" y2="-15.24" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$2">
-<contactref element="S3" pad="P$4"/>
+<signal name="KEY_D2B">
 <contactref element="R2" pad="1"/>
-<wire x1="-16.55" y1="39.27" x2="-41.49" y2="-15.24" width="0" layer="19" extent="1-1"/>
+<contactref element="U$2" pad="SW1"/>
+<wire x1="-41.49" y1="-15.24" x2="-27.94" y2="-62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
-<contactref element="S1" pad="P$1"/>
-<contactref element="S3" pad="P$1"/>
-<wire x1="-21.55" y1="26.77" x2="-21.55" y2="3.91" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="LED-"/>
+<contactref element="U$2" pad="LED-"/>
+<contactref element="U$1" pad="SW2"/>
+<contactref element="U$2" pad="SW2"/>
+<wire x1="-21.59" y1="-59.69" x2="-22.86" y2="-69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.86" y1="-39.37" x2="-21.59" y2="-59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.59" y1="-29.21" x2="-22.86" y2="-39.37" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SIG_D3B">
-<contactref element="S3" pad="P$3"/>
+<signal name="LED_BOTTOM_CNTRL">
+<contactref element="R3" pad="2"/>
+</signal>
+<signal name="LED_TOP_CNTRL">
+<contactref element="R4" pad="2"/>
+</signal>
+<signal name="N$4">
+<contactref element="R4" pad="1"/>
+<contactref element="U$2" pad="LED+"/>
+<wire x1="-25.4" y1="-69.85" x2="-41.49" y2="-88.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="R3" pad="1"/>
+<contactref element="U$1" pad="LED+"/>
+<wire x1="-25.4" y1="-39.37" x2="-41.49" y2="-82.55" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

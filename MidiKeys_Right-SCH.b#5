@@ -2317,13 +2317,13 @@ design rules under a new name.</description>
 <signal name="KEY_C4">
 <contactref element="ARDUINO_DUE1" pad="29"/>
 </signal>
-<signal name="N$16">
+<signal name="KEY_D4">
 <contactref element="ARDUINO_DUE1" pad="27"/>
 </signal>
-<signal name="N$17">
+<signal name="KEY_E4">
 <contactref element="ARDUINO_DUE1" pad="25"/>
 </signal>
-<signal name="N$18">
+<signal name="KEY_G4B">
 <contactref element="ARDUINO_DUE1" pad="23"/>
 </signal>
 <signal name="KEY_G4">
@@ -2368,19 +2368,19 @@ design rules under a new name.</description>
 <signal name="KEY_E2B">
 <contactref element="ARDUINO_DUE1" pad="50"/>
 </signal>
-<signal name="N$35">
+<signal name="KEY_A4B">
 <contactref element="ARDUINO_DUE1" pad="13"/>
 </signal>
-<signal name="N$36">
+<signal name="KEY_A4">
 <contactref element="ARDUINO_DUE1" pad="12"/>
 </signal>
-<signal name="N$37">
+<signal name="KEY_B4B">
 <contactref element="ARDUINO_DUE1" pad="11"/>
 </signal>
-<signal name="N$38">
+<signal name="KEY_B4">
 <contactref element="ARDUINO_DUE1" pad="10"/>
 </signal>
-<signal name="N$39">
+<signal name="KEY_C5">
 <contactref element="ARDUINO_DUE1" pad="9"/>
 </signal>
 <signal name="KEY_F2">
