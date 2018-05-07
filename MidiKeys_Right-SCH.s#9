@@ -104,7 +104,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="B3J-1000" prefix="S" uservalue="yes">
+<deviceset name="B3J-1000" prefix="S">
 <description>&lt;b&gt;Ivory Tactile Switch&lt;/b&gt;
 &lt;br&gt;
 Non Illuminated</description>
@@ -125,7 +125,7 @@ Non Illuminated</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="B3J-1100" prefix="S" uservalue="yes">
+<deviceset name="B3J-1100" prefix="S">
 <description>&lt;b&gt;Black Tactile Switch&lt;/b&gt;
 &lt;br&gt;
 Non Illuminated</description>
@@ -158,20 +158,18 @@ Non Illuminated</description>
 </class>
 </classes>
 <parts>
-<part name="S1" library="switches-omron" deviceset="B3J-1000" device=""/>
-<part name="S2" library="switches-omron" deviceset="B3J-1000" device=""/>
-<part name="S3" library="switches-omron" deviceset="B3J-1100" device=""/>
-<part name="S4" library="switches-omron" deviceset="B3J-1100" device=""/>
+<part name="SC3" library="switches-omron" deviceset="B3J-1000" device=""/>
+<part name="SD3" library="switches-omron" deviceset="B3J-1000" device=""/>
+<part name="SD3B" library="switches-omron" deviceset="B3J-1100" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="S1" gate="G$1" x="27.94" y="60.96"/>
-<instance part="S2" gate="G$1" x="53.34" y="60.96"/>
-<instance part="S3" gate="G$1" x="30.48" y="30.48"/>
-<instance part="S4" gate="G$1" x="60.96" y="33.02"/>
+<instance part="SC3" gate="G$1" x="27.94" y="60.96"/>
+<instance part="SD3" gate="G$1" x="53.34" y="60.96"/>
+<instance part="SD3B" gate="G$1" x="60.96" y="33.02"/>
 </instances>
 <busses>
 </busses>

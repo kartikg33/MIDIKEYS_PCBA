@@ -4421,6 +4421,11 @@ type RDH, grid 15 mm</description>
 <pinref part="U$1" gate="G$1" pin="SW1"/>
 <wire x1="33.02" y1="63.5" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="53"/>
+<wire x1="-78.74" y1="-30.48" x2="-78.74" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-78.74" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -4445,6 +4450,11 @@ type RDH, grid 15 mm</description>
 <label x="76.2" y="66.04" size="1.778" layer="95"/>
 <pinref part="U$2" gate="G$1" pin="SW1"/>
 <wire x1="73.66" y1="66.04" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="52"/>
+<wire x1="-129.54" y1="-30.48" x2="-129.54" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-129.54" y="-48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4510,100 +4520,249 @@ type RDH, grid 15 mm</description>
 <wire x1="60.96" y1="63.5" x2="60.96" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="ARDUINO_DUE1" gate="G$1" pin="53"/>
-<wire x1="-78.74" y1="-30.48" x2="-78.74" y2="-35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
+<net name="KEY_D2" class="0">
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="51"/>
 <wire x1="-76.2" y1="-30.48" x2="-76.2" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-76.2" y="-48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="KEY_E2" class="0">
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="49"/>
 <wire x1="-73.66" y1="-30.48" x2="-73.66" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-73.66" y="-48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="ARDUINO_DUE1" gate="G$1" pin="47"/>
-<wire x1="-71.12" y1="-30.48" x2="-71.12" y2="-35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="ARDUINO_DUE1" gate="G$1" pin="45"/>
-<wire x1="-68.58" y1="-30.48" x2="-68.58" y2="-35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="ARDUINO_DUE1" gate="G$1" pin="43"/>
-<wire x1="-66.04" y1="-30.48" x2="-66.04" y2="-35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="ARDUINO_DUE1" gate="G$1" pin="41"/>
-<wire x1="-63.5" y1="-30.48" x2="-63.5" y2="-35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="ARDUINO_DUE1" gate="G$1" pin="39"/>
-<wire x1="-60.96" y1="-30.48" x2="-60.96" y2="-35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="ARDUINO_DUE1" gate="G$1" pin="37"/>
-<wire x1="-58.42" y1="-30.48" x2="-58.42" y2="-35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
+<net name="KEY_G3B" class="0">
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="35"/>
 <wire x1="-55.88" y1="-30.48" x2="-55.88" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-55.88" y="-48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="KEY_A3B" class="0">
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="33"/>
 <wire x1="-53.34" y1="-30.48" x2="-53.34" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-53.34" y="-48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="KEY_B3B" class="0">
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="31"/>
 <wire x1="-50.8" y1="-30.48" x2="-50.8" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-50.8" y="-48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="KEY_C4" class="0">
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="29"/>
 <wire x1="-48.26" y1="-30.48" x2="-48.26" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-48.26" y="-48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="KEY_D4" class="0">
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="27"/>
 <wire x1="-45.72" y1="-30.48" x2="-45.72" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-45.72" y="-48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="KEY_E4" class="0">
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="25"/>
 <wire x1="-43.18" y1="-30.48" x2="-43.18" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-43.18" y="-48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="KEY_G4B" class="0">
 <segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="23"/>
 <wire x1="-40.64" y1="-30.48" x2="-40.64" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-40.64" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_G4" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="22"/>
+<wire x1="-91.44" y1="-30.48" x2="-91.44" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-91.44" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_F4" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="24"/>
+<wire x1="-93.98" y1="-30.48" x2="-93.98" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-93.98" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_E4B" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="26"/>
+<wire x1="-96.52" y1="-30.48" x2="-96.52" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-96.52" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_D4B" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="28"/>
+<wire x1="-99.06" y1="-30.48" x2="-99.06" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-99.06" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_B3" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="30"/>
+<wire x1="-101.6" y1="-30.48" x2="-101.6" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-101.6" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_A3" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="32"/>
+<wire x1="-104.14" y1="-30.48" x2="-104.14" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-104.14" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_G3" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="34"/>
+<wire x1="-106.68" y1="-30.48" x2="-106.68" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-106.68" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_F3" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="36"/>
+<wire x1="-109.22" y1="-30.48" x2="-109.22" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-109.22" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_E3B" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="38"/>
+<wire x1="-111.76" y1="-30.48" x2="-111.76" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-111.76" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_D3B" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="40"/>
+<wire x1="-114.3" y1="-30.48" x2="-114.3" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-114.3" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_B2" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="42"/>
+<wire x1="-116.84" y1="-30.48" x2="-116.84" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-116.84" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_A2" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="44"/>
+<wire x1="-119.38" y1="-30.48" x2="-119.38" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-119.38" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_G2" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="46"/>
+<wire x1="-121.92" y1="-30.48" x2="-121.92" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-121.92" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_E2B" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="50"/>
+<wire x1="-127" y1="-30.48" x2="-127" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-127" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_A4B" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="13"/>
+<wire x1="-25.4" y1="53.34" x2="-17.78" y2="53.34" width="0.1524" layer="91"/>
+<label x="-15.24" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="KEY_A4" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="12"/>
+<wire x1="-25.4" y1="50.8" x2="-17.78" y2="50.8" width="0.1524" layer="91"/>
+<label x="-15.24" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="KEY_B4B" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="11"/>
+<wire x1="-25.4" y1="48.26" x2="-17.78" y2="48.26" width="0.1524" layer="91"/>
+<label x="-15.24" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="KEY_B4" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="10"/>
+<wire x1="-25.4" y1="45.72" x2="-17.78" y2="45.72" width="0.1524" layer="91"/>
+<label x="-15.24" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="KEY_C5" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="9"/>
+<wire x1="-25.4" y1="43.18" x2="-17.78" y2="43.18" width="0.1524" layer="91"/>
+<label x="-15.24" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="KEY_F2" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="48"/>
+<wire x1="-124.46" y1="-30.48" x2="-124.46" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-124.46" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_G2B" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="47"/>
+<wire x1="-71.12" y1="-30.48" x2="-71.12" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-71.12" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_A2B" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="45"/>
+<wire x1="-68.58" y1="-30.48" x2="-68.58" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-68.58" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_B2B" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="43"/>
+<wire x1="-66.04" y1="-30.48" x2="-66.04" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-66.04" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_C3" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="41"/>
+<wire x1="-63.5" y1="-30.48" x2="-63.5" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-63.5" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_D3" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="39"/>
+<wire x1="-60.96" y1="-30.48" x2="-60.96" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-60.96" y="-48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="KEY_E3" class="0">
+<segment>
+<pinref part="ARDUINO_DUE1" gate="G$1" pin="37"/>
+<wire x1="-58.42" y1="-30.48" x2="-58.42" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-58.42" y="-48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
