@@ -2250,29 +2250,27 @@ design rules under a new name.</description>
 <signal name="KEY_C2">
 <contactref element="R1" pad="1"/>
 <contactref element="U$1" pad="SW1"/>
+<contactref element="ARDUINO_DUE1" pad="53"/>
+<wire x1="-27.94" y1="-31.75" x2="55.753" y2="-141.224" width="0" layer="19" extent="1-1"/>
 <wire x1="-41.49" y1="-8.89" x2="-27.94" y2="-31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="R1" pad="2"/>
-<contactref element="R2" pad="2"/>
 <contactref element="ARDUINO_DUE1" pad="3V3"/>
-<wire x1="-39.79" y1="-15.24" x2="-5.207" y2="-148.844" width="0" layer="19" extent="1-1"/>
-<wire x1="-39.79" y1="-8.89" x2="-39.79" y2="-15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.79" y1="-8.89" x2="-5.207" y2="-148.844" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_D2B">
 <contactref element="R2" pad="1"/>
 <contactref element="U$2" pad="SW1"/>
+<contactref element="ARDUINO_DUE1" pad="52"/>
 <wire x1="-41.49" y1="-15.24" x2="-27.94" y2="-62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="53.213" y1="-141.224" x2="-27.94" y2="-62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="U$1" pad="LED-"/>
-<contactref element="U$2" pad="LED-"/>
 <contactref element="U$1" pad="SW2"/>
-<contactref element="U$2" pad="SW2"/>
 <contactref element="ARDUINO_DUE1" pad="GND"/>
-<wire x1="-22.86" y1="-69.85" x2="-0.127" y2="-148.844" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.59" y1="-59.69" x2="-22.86" y2="-69.85" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.86" y1="-39.37" x2="-21.59" y2="-59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.86" y1="-39.37" x2="-0.127" y2="-148.844" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.59" y1="-29.21" x2="-22.86" y2="-39.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_BOTTOM_CNTRL">
@@ -2295,53 +2293,115 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="LED+"/>
 <wire x1="-25.4" y1="-39.37" x2="-41.49" y2="-82.55" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$1">
-<contactref element="ARDUINO_DUE1" pad="53"/>
-</signal>
-<signal name="N$2">
+<signal name="KEY_D2">
 <contactref element="ARDUINO_DUE1" pad="51"/>
 </signal>
-<signal name="N$3">
+<signal name="KEY_E2">
 <contactref element="ARDUINO_DUE1" pad="49"/>
 </signal>
-<signal name="N$6">
-<contactref element="ARDUINO_DUE1" pad="47"/>
-</signal>
-<signal name="N$7">
-<contactref element="ARDUINO_DUE1" pad="45"/>
-</signal>
-<signal name="N$8">
-<contactref element="ARDUINO_DUE1" pad="43"/>
-</signal>
-<signal name="N$9">
-<contactref element="ARDUINO_DUE1" pad="41"/>
-</signal>
-<signal name="N$10">
-<contactref element="ARDUINO_DUE1" pad="39"/>
-</signal>
-<signal name="N$11">
-<contactref element="ARDUINO_DUE1" pad="37"/>
-</signal>
-<signal name="N$12">
+<signal name="KEY_G3B">
 <contactref element="ARDUINO_DUE1" pad="35"/>
 </signal>
-<signal name="N$13">
+<signal name="KEY_A3B">
 <contactref element="ARDUINO_DUE1" pad="33"/>
 </signal>
-<signal name="N$14">
+<signal name="KEY_B3B">
 <contactref element="ARDUINO_DUE1" pad="31"/>
 </signal>
-<signal name="N$15">
+<signal name="KEY_C4">
 <contactref element="ARDUINO_DUE1" pad="29"/>
 </signal>
-<signal name="N$16">
+<signal name="KEY_D4">
 <contactref element="ARDUINO_DUE1" pad="27"/>
 </signal>
-<signal name="N$17">
+<signal name="KEY_E4">
 <contactref element="ARDUINO_DUE1" pad="25"/>
 </signal>
-<signal name="N$18">
+<signal name="KEY_G4B">
 <contactref element="ARDUINO_DUE1" pad="23"/>
+</signal>
+<signal name="KEY_G4">
+<contactref element="ARDUINO_DUE1" pad="22"/>
+</signal>
+<signal name="KEY_F4">
+<contactref element="ARDUINO_DUE1" pad="24"/>
+</signal>
+<signal name="KEY_E4B">
+<contactref element="ARDUINO_DUE1" pad="26"/>
+</signal>
+<signal name="KEY_D4B">
+<contactref element="ARDUINO_DUE1" pad="28"/>
+</signal>
+<signal name="KEY_B3">
+<contactref element="ARDUINO_DUE1" pad="30"/>
+</signal>
+<signal name="KEY_A3">
+<contactref element="ARDUINO_DUE1" pad="32"/>
+</signal>
+<signal name="KEY_G3">
+<contactref element="ARDUINO_DUE1" pad="34"/>
+</signal>
+<signal name="KEY_F3">
+<contactref element="ARDUINO_DUE1" pad="36"/>
+</signal>
+<signal name="KEY_E3B">
+<contactref element="ARDUINO_DUE1" pad="38"/>
+</signal>
+<signal name="KEY_D3B">
+<contactref element="ARDUINO_DUE1" pad="40"/>
+</signal>
+<signal name="KEY_B2">
+<contactref element="ARDUINO_DUE1" pad="42"/>
+</signal>
+<signal name="KEY_A2">
+<contactref element="ARDUINO_DUE1" pad="44"/>
+</signal>
+<signal name="KEY_G2">
+<contactref element="ARDUINO_DUE1" pad="46"/>
+</signal>
+<signal name="KEY_E2B">
+<contactref element="ARDUINO_DUE1" pad="50"/>
+</signal>
+<signal name="KEY_A4B">
+<contactref element="ARDUINO_DUE1" pad="13"/>
+</signal>
+<signal name="KEY_A4">
+<contactref element="ARDUINO_DUE1" pad="12"/>
+</signal>
+<signal name="KEY_B4B">
+<contactref element="ARDUINO_DUE1" pad="11"/>
+</signal>
+<signal name="KEY_B4">
+<contactref element="ARDUINO_DUE1" pad="10"/>
+</signal>
+<signal name="KEY_C5">
+<contactref element="ARDUINO_DUE1" pad="9"/>
+</signal>
+<signal name="KEY_F2">
+<contactref element="ARDUINO_DUE1" pad="48"/>
+</signal>
+<signal name="KEY_G2B">
+<contactref element="ARDUINO_DUE1" pad="47"/>
+</signal>
+<signal name="KEY_A2B">
+<contactref element="ARDUINO_DUE1" pad="45"/>
+</signal>
+<signal name="KEY_B2B">
+<contactref element="ARDUINO_DUE1" pad="43"/>
+</signal>
+<signal name="KEY_C3">
+<contactref element="ARDUINO_DUE1" pad="41"/>
+</signal>
+<signal name="KEY_D3">
+<contactref element="ARDUINO_DUE1" pad="39"/>
+</signal>
+<signal name="KEY_E3">
+<contactref element="ARDUINO_DUE1" pad="37"/>
+</signal>
+<signal name="N$1">
+<contactref element="U$2" pad="LED-"/>
+<contactref element="U$2" pad="SW2"/>
+<wire x1="-21.59" y1="-59.69" x2="-22.86" y2="-69.85" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
