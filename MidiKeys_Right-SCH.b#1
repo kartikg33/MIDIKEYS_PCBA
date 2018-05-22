@@ -1687,7 +1687,7 @@ design rules under a new name.</description>
 <element name="R7" library="resistor" package="R0603" value="10k" x="-46.99" y="160.02"/>
 <element name="R8" library="resistor" package="R0603" value="82R" x="-110.49" y="129.54"/>
 <element name="R9" library="resistor" package="R0603" value="10k" x="-52.07" y="160.02"/>
-<element name="J1" library="con-3m-skt-header" package="S50V" value="3M-IDC-2x26" x="70" y="30" rot="MR180"/>
+<element name="J1" library="con-3m-skt-header" package="S50V" value="3M 8550-4500" x="70" y="30" rot="MR180"/>
 <element name="SD2B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-9"/>
 <element name="SD3B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-15"/>
 <element name="SD4B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-21"/>

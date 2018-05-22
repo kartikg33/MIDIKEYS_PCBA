@@ -2184,7 +2184,7 @@ design rules under a new name.</description>
 <wire x1="-156.762" y1="-219" x2="-156.762" y2="-213" width="0" layer="19" extent="1-1"/>
 <wire x1="-156.762" y1="-225" x2="-156.762" y2="-219" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$9">
+<signal name="KEY_F">
 <contactref element="R9" pad="1"/>
 <contactref element="F2" pad="SW1"/>
 <contactref element="SF3" pad="1"/>
@@ -2195,7 +2195,7 @@ design rules under a new name.</description>
 <wire x1="-156.762" y1="-111" x2="-156.762" y2="-105" width="0" layer="19" extent="1-1"/>
 <wire x1="-156.762" y1="-117" x2="-156.762" y2="-111" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$10">
+<signal name="KEY_E">
 <contactref element="R7" pad="1"/>
 <contactref element="E2" pad="SW1"/>
 <contactref element="SE3" pad="1"/>
@@ -2206,7 +2206,7 @@ design rules under a new name.</description>
 <wire x1="46.19" y1="12.54" x2="-156.762" y2="-69" width="0" layer="19" extent="1-1"/>
 <wire x1="-47.84" y1="160.02" x2="46.19" y2="12.54" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$11">
+<signal name="KEY_D">
 <contactref element="D2" pad="SW1"/>
 <contactref element="R5" pad="1"/>
 <contactref element="SD3" pad="1"/>

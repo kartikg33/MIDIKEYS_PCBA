@@ -1984,15 +1984,6 @@ design rules under a new name.</description>
 <wire x1="-156.762" y1="-159" x2="86.19" y2="12.54" width="0" layer="19" extent="1-1"/>
 <wire x1="-156.762" y1="-171" x2="-156.762" y2="-159" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="KEY_A">
-<contactref element="R13" pad="1"/>
-<contactref element="A2" pad="SW1"/>
-<contactref element="SA2" pad="1"/>
-<contactref element="SA4" pad="1"/>
-<wire x1="-126.58" y1="129.54" x2="106.19" y2="12.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-195" x2="-126.58" y2="129.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-207" x2="-156.762" y2="-195" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="KEY_B">
 <contactref element="R15" pad="1"/>
 <contactref element="B2" pad="SW1"/>
@@ -2229,6 +2220,17 @@ design rules under a new name.</description>
 <contactref element="J1" pad="43"/>
 <contactref element="SE2B" pad="2"/>
 <wire x1="47.14" y1="31.27" x2="-155.238" y2="-57" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="KEY_A">
+<contactref element="R13" pad="1"/>
+<contactref element="A2" pad="SW1"/>
+<contactref element="SA3" pad="1"/>
+<contactref element="SA4" pad="1"/>
+<contactref element="SA2" pad="1"/>
+<wire x1="-126.58" y1="129.54" x2="106.19" y2="12.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-156.762" y1="-195" x2="-126.58" y2="129.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-156.762" y1="-201" x2="-156.762" y2="-195" width="0" layer="19" extent="1-1"/>
+<wire x1="-156.762" y1="-207" x2="-156.762" y2="-201" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
