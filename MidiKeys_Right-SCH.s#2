@@ -4061,7 +4061,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="B2B" library="cherrymx" deviceset="CHERRY-MX-LED" device=""/>
 <part name="R54" library="resistor" deviceset="R-EU_" device="R0603" value="82R"/>
 <part name="GND27" library="supply2" deviceset="GND" device=""/>
-<part name="J1" library="con-3m-skt-header" deviceset="SOCKET-50" device="V"/>
+<part name="J1" library="con-3m-skt-header" deviceset="SOCKET-50" device="V" value="3M 8550-4500"/>
 <part name="SD2B" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="SD3B" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="SD4B" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
@@ -5190,6 +5190,44 @@ In this library the device names are the same as the pin names of the symbols, t
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,-10.16,36.4896,SD2B,,,,,"/>
+<approved hash="113,1,-10.16,26.3296,SD3B,,,,,"/>
+<approved hash="113,1,-10.16,16.1696,SD4B,,,,,"/>
+<approved hash="113,1,-10.16,-27.0104,SC2,,,,,"/>
+<approved hash="113,1,-10.16,-37.1704,SC3,,,,,"/>
+<approved hash="113,1,-10.16,-47.3304,SC4,,,,,"/>
+<approved hash="113,1,43.18,-27.0104,SD2,,,,,"/>
+<approved hash="113,1,43.18,-37.1704,SD3,,,,,"/>
+<approved hash="113,1,43.18,-47.3304,SD4,,,,,"/>
+<approved hash="113,1,43.18,36.4896,SE2B,,,,,"/>
+<approved hash="113,1,43.18,26.3296,SE3B,,,,,"/>
+<approved hash="113,1,43.18,16.1696,SE4B,,,,,"/>
+<approved hash="113,1,96.52,-27.0104,SE2,,,,,"/>
+<approved hash="113,1,96.52,-37.1704,SE3,,,,,"/>
+<approved hash="113,1,96.52,-47.3304,SE4,,,,,"/>
+<approved hash="113,1,96.52,36.4896,SG2B,,,,,"/>
+<approved hash="113,1,96.52,26.3296,SG3B,,,,,"/>
+<approved hash="113,1,96.52,16.1696,SG4B,,,,,"/>
+<approved hash="113,1,149.86,-27.0104,SF2,,,,,"/>
+<approved hash="113,1,149.86,-37.1704,SF3,,,,,"/>
+<approved hash="113,1,149.86,-47.3304,SF4,,,,,"/>
+<approved hash="113,1,149.86,36.4896,SA2B,,,,,"/>
+<approved hash="113,1,149.86,26.3296,SA3B,,,,,"/>
+<approved hash="113,1,149.86,16.1696,SA4B,,,,,"/>
+<approved hash="113,1,203.2,36.4896,SB2B,,,,,"/>
+<approved hash="113,1,203.2,26.3296,SB3B,,,,,"/>
+<approved hash="113,1,203.2,16.1696,SB4B,,,,,"/>
+<approved hash="113,1,203.2,-27.0104,SG2,,,,,"/>
+<approved hash="113,1,203.2,-37.1704,SG3,,,,,"/>
+<approved hash="113,1,203.2,-47.3304,SG4,,,,,"/>
+<approved hash="113,1,256.54,-27.0104,SA2,,,,,"/>
+<approved hash="113,1,256.54,-37.1704,SA3,,,,,"/>
+<approved hash="113,1,256.54,-47.3304,SA4,,,,,"/>
+<approved hash="113,1,309.88,-27.0104,SB2,,,,,"/>
+<approved hash="113,1,309.88,-37.1704,SB3,,,,,"/>
+<approved hash="113,1,309.88,-47.3304,SB4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

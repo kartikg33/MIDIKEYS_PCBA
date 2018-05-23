@@ -4663,64 +4663,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="-5.08" y="-35.56"/>
 </segment>
 </net>
-<net name="KEY_D" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="SW1"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="-35.56" x2="53.34" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="-35.56" x2="48.26" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="53.34" y="-35.56"/>
-<label x="50.8" y="-45.72" size="1.778" layer="95" rot="R90"/>
-<pinref part="SD2" gate="1" pin="1"/>
-<wire x1="48.26" y1="-25.4" x2="48.26" y2="-35.56" width="0.1524" layer="91"/>
-<pinref part="SD4" gate="1" pin="1"/>
-<wire x1="48.26" y1="-35.56" x2="48.26" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="48.26" y="-35.56"/>
-</segment>
-</net>
-<net name="KEY_E" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="E2" gate="G$1" pin="SW1"/>
-<wire x1="106.68" y1="-33.02" x2="106.68" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="-35.56" x2="101.6" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="106.68" y="-35.56"/>
-<label x="104.14" y="-45.72" size="1.778" layer="95" rot="R90"/>
-<pinref part="SE2" gate="1" pin="1"/>
-<wire x1="101.6" y1="-25.4" x2="101.6" y2="-35.56" width="0.1524" layer="91"/>
-<pinref part="SE4" gate="1" pin="1"/>
-<wire x1="101.6" y1="-35.56" x2="101.6" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="101.6" y="-35.56"/>
-</segment>
-</net>
-<net name="KEY_F" class="0">
-<segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="F2" gate="G$1" pin="SW1"/>
-<wire x1="160.02" y1="-33.02" x2="160.02" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="-35.56" x2="154.94" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="160.02" y="-35.56"/>
-<label x="157.48" y="-45.72" size="1.778" layer="95" rot="R90"/>
-<pinref part="SF2" gate="1" pin="1"/>
-<wire x1="154.94" y1="-25.4" x2="154.94" y2="-35.56" width="0.1524" layer="91"/>
-<pinref part="SF4" gate="1" pin="1"/>
-<wire x1="154.94" y1="-35.56" x2="154.94" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="154.94" y="-35.56"/>
-</segment>
-</net>
 <net name="KEY_G" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="G2" gate="G$1" pin="SW1"/>
 <wire x1="213.36" y1="-33.02" x2="213.36" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="SG3" gate="1" pin="1"/>
 <wire x1="213.36" y1="-35.56" x2="208.28" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="213.36" y="-35.56"/>
-<label x="210.82" y="-45.72" size="1.778" layer="95" rot="R90"/>
 <pinref part="SG2" gate="1" pin="1"/>
-<wire x1="208.28" y1="-25.4" x2="208.28" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-35.56" x2="208.28" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="208.28" y="-35.56"/>
 <pinref part="SG4" gate="1" pin="1"/>
 <wire x1="208.28" y1="-35.56" x2="208.28" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="208.28" y="-35.56"/>
 </segment>
 </net>
 <net name="KEY_BB" class="0">
@@ -4728,59 +4683,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="R53" gate="G$1" pin="1"/>
 <pinref part="B2B" gate="G$1" pin="SW1"/>
 <wire x1="213.36" y1="30.48" x2="213.36" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="SB3B" gate="1" pin="1"/>
 <wire x1="213.36" y1="27.94" x2="208.28" y2="27.94" width="0.1524" layer="91"/>
 <junction x="213.36" y="27.94"/>
-<label x="210.82" y="17.78" size="1.778" layer="95" rot="R90"/>
 <pinref part="SB2B" gate="1" pin="1"/>
-<wire x1="208.28" y1="38.1" x2="208.28" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="27.94" x2="208.28" y2="38.1" width="0.1524" layer="91"/>
+<junction x="208.28" y="27.94"/>
 <pinref part="SB4B" gate="1" pin="1"/>
 <wire x1="208.28" y1="27.94" x2="208.28" y2="17.78" width="0.1524" layer="91"/>
-<junction x="208.28" y="27.94"/>
-</segment>
-</net>
-<net name="KEY_AB" class="0">
-<segment>
-<pinref part="R51" gate="G$1" pin="1"/>
-<pinref part="A2B" gate="G$1" pin="SW1"/>
-<wire x1="160.02" y1="30.48" x2="160.02" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="27.94" x2="154.94" y2="27.94" width="0.1524" layer="91"/>
-<junction x="160.02" y="27.94"/>
-<label x="157.48" y="17.78" size="1.778" layer="95" rot="R90"/>
-<pinref part="SA2B" gate="1" pin="1"/>
-<wire x1="154.94" y1="38.1" x2="154.94" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="SA4B" gate="1" pin="1"/>
-<wire x1="154.94" y1="27.94" x2="154.94" y2="17.78" width="0.1524" layer="91"/>
-<junction x="154.94" y="27.94"/>
-</segment>
-</net>
-<net name="KEY_GB" class="0">
-<segment>
-<pinref part="R49" gate="G$1" pin="1"/>
-<pinref part="G2B" gate="G$1" pin="SW1"/>
-<wire x1="106.68" y1="30.48" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="27.94" x2="101.6" y2="27.94" width="0.1524" layer="91"/>
-<junction x="106.68" y="27.94"/>
-<label x="104.14" y="17.78" size="1.778" layer="95" rot="R90"/>
-<pinref part="SG2B" gate="1" pin="1"/>
-<wire x1="101.6" y1="38.1" x2="101.6" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="SG4B" gate="1" pin="1"/>
-<wire x1="101.6" y1="27.94" x2="101.6" y2="17.78" width="0.1524" layer="91"/>
-<junction x="101.6" y="27.94"/>
-</segment>
-</net>
-<net name="KEY_EB" class="0">
-<segment>
-<pinref part="R47" gate="G$1" pin="1"/>
-<pinref part="E2B" gate="G$1" pin="SW1"/>
-<wire x1="53.34" y1="30.48" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
-<junction x="53.34" y="27.94"/>
-<label x="50.8" y="17.78" size="1.778" layer="95" rot="R90"/>
-<pinref part="SE2B" gate="1" pin="1"/>
-<wire x1="48.26" y1="38.1" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="SE4B" gate="1" pin="1"/>
-<wire x1="48.26" y1="27.94" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
-<junction x="48.26" y="27.94"/>
 </segment>
 </net>
 <net name="KEY_D2" class="0">
@@ -5165,7 +5075,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="261.62" y1="-35.56" x2="261.62" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="KEY_B" class="0">
 <segment>
 <pinref part="B2" gate="G$1" pin="SW1"/>
 <pinref part="R15" gate="G$1" pin="1"/>
@@ -5178,6 +5088,97 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="314.96" y="-35.56"/>
 <pinref part="SB4" gate="1" pin="1"/>
 <wire x1="314.96" y1="-35.56" x2="314.96" y2="-45.72" width="0.1524" layer="91"/>
+<label x="317.5" y="-45.72" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="F2" gate="G$1" pin="SW1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="-33.02" x2="160.02" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="SF3" gate="1" pin="1"/>
+<wire x1="160.02" y1="-35.56" x2="154.94" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="160.02" y="-35.56"/>
+<pinref part="SF2" gate="1" pin="1"/>
+<wire x1="154.94" y1="-35.56" x2="154.94" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="154.94" y="-35.56"/>
+<pinref part="SF4" gate="1" pin="1"/>
+<wire x1="154.94" y1="-35.56" x2="154.94" y2="-45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="E2" gate="G$1" pin="SW1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="-33.02" x2="106.68" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="SE3" gate="1" pin="1"/>
+<wire x1="106.68" y1="-35.56" x2="101.6" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="106.68" y="-35.56"/>
+<pinref part="SE2" gate="1" pin="1"/>
+<wire x1="101.6" y1="-35.56" x2="101.6" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="101.6" y="-35.56"/>
+<pinref part="SE4" gate="1" pin="1"/>
+<wire x1="101.6" y1="-35.56" x2="101.6" y2="-45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="D2" gate="G$1" pin="SW1"/>
+<wire x1="53.34" y1="-35.56" x2="53.34" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="SD3" gate="1" pin="1"/>
+<wire x1="53.34" y1="-35.56" x2="48.26" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="53.34" y="-35.56"/>
+<pinref part="SD2" gate="1" pin="1"/>
+<wire x1="48.26" y1="-35.56" x2="48.26" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="48.26" y="-35.56"/>
+<pinref part="SD4" gate="1" pin="1"/>
+<wire x1="48.26" y1="-35.56" x2="48.26" y2="-45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="E2B" gate="G$1" pin="SW1"/>
+<pinref part="R47" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="30.48" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="SE3B" gate="1" pin="1"/>
+<wire x1="53.34" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
+<junction x="53.34" y="27.94"/>
+<pinref part="SE2B" gate="1" pin="1"/>
+<wire x1="48.26" y1="27.94" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
+<junction x="48.26" y="27.94"/>
+<pinref part="SE4B" gate="1" pin="1"/>
+<wire x1="48.26" y1="27.94" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="G2B" gate="G$1" pin="SW1"/>
+<pinref part="R49" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="30.48" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="SG3B" gate="1" pin="1"/>
+<wire x1="106.68" y1="27.94" x2="101.6" y2="27.94" width="0.1524" layer="91"/>
+<junction x="106.68" y="27.94"/>
+<pinref part="SG2B" gate="1" pin="1"/>
+<wire x1="101.6" y1="27.94" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
+<junction x="101.6" y="27.94"/>
+<pinref part="SG4B" gate="1" pin="1"/>
+<wire x1="101.6" y1="27.94" x2="101.6" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="A2B" gate="G$1" pin="SW1"/>
+<pinref part="R51" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="30.48" x2="160.02" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="SA3B" gate="1" pin="1"/>
+<wire x1="160.02" y1="27.94" x2="154.94" y2="27.94" width="0.1524" layer="91"/>
+<junction x="160.02" y="27.94"/>
+<pinref part="SA2B" gate="1" pin="1"/>
+<wire x1="154.94" y1="27.94" x2="154.94" y2="38.1" width="0.1524" layer="91"/>
+<junction x="154.94" y="27.94"/>
+<pinref part="SA4B" gate="1" pin="1"/>
+<wire x1="154.94" y1="27.94" x2="154.94" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

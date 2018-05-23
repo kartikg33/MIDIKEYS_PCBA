@@ -1687,43 +1687,43 @@ design rules under a new name.</description>
 <element name="R7" library="resistor" package="R0603" value="10k" x="-46.99" y="160.02"/>
 <element name="R8" library="resistor" package="R0603" value="82R" x="-110.49" y="129.54"/>
 <element name="R9" library="resistor" package="R0603" value="10k" x="-52.07" y="160.02"/>
-<element name="J1" library="con-3m-skt-header" package="S50V" value="" x="70" y="30" rot="MR180"/>
-<element name="SD2B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-9"/>
-<element name="SD3B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-15"/>
-<element name="SD4B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-21"/>
+<element name="J1" library="con-3m-skt-header" package="S50V" value="3M 8550-4500" x="70" y="30" rot="MR180"/>
+<element name="SD2B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="13" y="40" rot="MR270"/>
+<element name="SD3B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="17" y="40"/>
+<element name="SD4B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="21" y="40"/>
 <element name="SC2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="9" y="20" rot="MR90"/>
 <element name="SC3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="13" y="20" rot="MR90"/>
 <element name="SC4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="17" y="20" rot="MR90"/>
-<element name="SD2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-45"/>
-<element name="SD3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-152" y="-45"/>
-<element name="SD4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-51"/>
-<element name="SE2B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-57"/>
-<element name="SE3B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-152" y="-57"/>
-<element name="SE4B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-63"/>
-<element name="SE2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-69"/>
-<element name="SE3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-75"/>
-<element name="SE4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-81"/>
-<element name="SG2B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-87"/>
-<element name="SG3B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-93"/>
-<element name="SG4B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-99"/>
-<element name="SF2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-105"/>
-<element name="SF3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-111"/>
-<element name="SF4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-117"/>
-<element name="SA2B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-123"/>
-<element name="SA3B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-129"/>
-<element name="SA4B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-135"/>
-<element name="SB2B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-141"/>
-<element name="SB3B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-147"/>
-<element name="SB4B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-153"/>
-<element name="SG2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-159"/>
-<element name="SG3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-165"/>
-<element name="SG4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-171"/>
-<element name="SA2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-195"/>
-<element name="SA3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-201"/>
-<element name="SA4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-207"/>
-<element name="SB2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-213"/>
-<element name="SB3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-219"/>
-<element name="SB4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-156" y="-225"/>
+<element name="SD2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="29" y="20" rot="MR0"/>
+<element name="SD3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="33" y="20" rot="MR0"/>
+<element name="SD4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="37" y="20" rot="MR0"/>
+<element name="SE2B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="33" y="40"/>
+<element name="SE3B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="37" y="40"/>
+<element name="SE4B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="41" y="40"/>
+<element name="SE2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="49" y="20" rot="MR0"/>
+<element name="SE3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="53" y="20" rot="MR0"/>
+<element name="SE4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="57" y="20" rot="MR0"/>
+<element name="SG2B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="73" y="40"/>
+<element name="SG3B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="77" y="40"/>
+<element name="SG4B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="81" y="40"/>
+<element name="SF2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="69" y="20" rot="MR0"/>
+<element name="SF3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="73" y="20" rot="MR0"/>
+<element name="SF4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="77" y="20" rot="MR0"/>
+<element name="SA2B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="93" y="40"/>
+<element name="SA3B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="97" y="40"/>
+<element name="SA4B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="101" y="40"/>
+<element name="SB2B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="113" y="40"/>
+<element name="SB3B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="117" y="40"/>
+<element name="SB4B" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="121" y="40"/>
+<element name="SG2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="89" y="20" rot="MR0"/>
+<element name="SG3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="93" y="20" rot="MR0"/>
+<element name="SG4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="97" y="20" rot="MR0"/>
+<element name="SA2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="109" y="20" rot="MR0"/>
+<element name="SA3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="113" y="20" rot="MR0"/>
+<element name="SA4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="117" y="20" rot="MR0"/>
+<element name="SB2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="129" y="20" rot="MR0"/>
+<element name="SB3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="133" y="20" rot="MR0"/>
+<element name="SB4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="137" y="20" rot="MR0"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -1805,14 +1805,16 @@ design rules under a new name.</description>
 <contactref element="J1" pad="23"/>
 <contactref element="J1" pad="21"/>
 <contactref element="J1" pad="19"/>
+<contactref element="J1" pad="26"/>
 <wire x1="102.54" y1="55.08" x2="122.54" y2="55.08" width="0" layer="19" extent="1-1"/>
 <wire x1="82.54" y1="55.08" x2="102.54" y2="55.08" width="0" layer="19" extent="1-1"/>
 <wire x1="77.62" y1="31.27" x2="82.54" y2="55.08" width="0" layer="19" extent="1-1"/>
 <wire x1="75.08" y1="31.27" x2="77.62" y2="31.27" width="0" layer="19" extent="1-1"/>
 <wire x1="72.54" y1="31.27" x2="75.08" y2="31.27" width="0" layer="19" extent="1-1"/>
 <wire x1="70" y1="31.27" x2="72.54" y2="31.27" width="0" layer="19" extent="1-1"/>
-<wire x1="67.46" y1="28.73" x2="70" y2="31.27" width="0" layer="19" extent="1-1"/>
-<wire x1="72.54" y1="15.08" x2="67.46" y2="28.73" width="0" layer="19" extent="1-1"/>
+<wire x1="70" y1="28.73" x2="70" y2="31.27" width="0" layer="19" extent="1-1"/>
+<wire x1="67.46" y1="28.73" x2="70" y2="28.73" width="0" layer="19" extent="1-1"/>
+<wire x1="72.54" y1="15.08" x2="70" y2="28.73" width="0" layer="19" extent="1-1"/>
 <wire x1="92.54" y1="15.08" x2="72.54" y2="15.08" width="0" layer="19" extent="1-1"/>
 <wire x1="112.54" y1="15.08" x2="92.54" y2="15.08" width="0" layer="19" extent="1-1"/>
 <wire x1="132.54" y1="15.08" x2="112.54" y2="15.08" width="0" layer="19" extent="1-1"/>
@@ -1928,9 +1930,9 @@ design rules under a new name.</description>
 <contactref element="SD3B" pad="1"/>
 <contactref element="SD2B" pad="1"/>
 <contactref element="SD4B" pad="1"/>
-<wire x1="-156.762" y1="-15" x2="-156.762" y2="-21" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-9" x2="-156.762" y2="-15" width="0" layer="19" extent="1-1"/>
-<wire x1="16.19" y1="52.54" x2="-156.762" y2="-9" width="0" layer="19" extent="1-1"/>
+<wire x1="16.238" y1="40" x2="20.238" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="13" y1="40.762" x2="16.238" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="16.19" y1="52.54" x2="13" y2="40.762" width="0" layer="19" extent="1-1"/>
 <wire x1="7.32" y1="43.02" x2="16.19" y2="52.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_C">
@@ -1955,9 +1957,9 @@ design rules under a new name.</description>
 <contactref element="SG2" pad="1"/>
 <contactref element="SG4" pad="1"/>
 <wire x1="86.19" y1="12.54" x2="-27.52" y2="160.02" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-159" x2="86.19" y2="12.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-165" x2="-156.762" y2="-159" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-171" x2="-156.762" y2="-165" width="0" layer="19" extent="1-1"/>
+<wire x1="89.762" y1="20" x2="86.19" y2="12.54" width="0" layer="19" extent="1-1"/>
+<wire x1="93.762" y1="20" x2="89.762" y2="20" width="0" layer="19" extent="1-1"/>
+<wire x1="97.762" y1="20" x2="93.762" y2="20" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_BB">
 <contactref element="R53" pad="1"/>
@@ -1966,201 +1968,198 @@ design rules under a new name.</description>
 <contactref element="SB2B" pad="1"/>
 <contactref element="SB4B" pad="1"/>
 <wire x1="-52.92" y1="153.67" x2="116.19" y2="52.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-141" x2="-52.92" y2="153.67" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-147" x2="-156.762" y2="-141" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-153" x2="-156.762" y2="-147" width="0" layer="19" extent="1-1"/>
+<wire x1="112.238" y1="40" x2="-52.92" y2="153.67" width="0" layer="19" extent="1-1"/>
+<wire x1="116.238" y1="40" x2="112.238" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="120.238" y1="40" x2="116.238" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_D2B">
 <contactref element="SD2B" pad="2"/>
 <contactref element="J1" pad="49"/>
-<wire x1="39.52" y1="31.27" x2="-155.238" y2="-9" width="0" layer="19" extent="1-1"/>
+<wire x1="39.52" y1="31.27" x2="13" y2="39.238" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_D3B">
 <contactref element="SD3B" pad="2"/>
 <contactref element="J1" pad="47"/>
-<wire x1="42.06" y1="31.27" x2="-155.238" y2="-15" width="0" layer="19" extent="1-1"/>
+<wire x1="42.06" y1="31.27" x2="17.762" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_D4B">
 <contactref element="SD4B" pad="2"/>
 <contactref element="J1" pad="45"/>
-<wire x1="44.6" y1="31.27" x2="-155.238" y2="-21" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="31.27" x2="21.762" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_C2">
 <contactref element="SC2" pad="2"/>
 <contactref element="J1" pad="50"/>
 <wire x1="9" y1="20.762" x2="9" y2="25" width="0.1524" layer="16"/>
-<wire x1="39.52" y1="28.73" x2="37.79" y2="27" width="0.1524" layer="16"/>
-<wire x1="11" y1="27" x2="37.79" y2="27" width="0.1524" layer="16"/>
-<wire x1="9" y1="25" x2="11" y2="27" width="0.1524" layer="16"/>
+<wire x1="39.52" y1="28.73" x2="37.29" y2="26.5" width="0.1524" layer="16"/>
+<wire x1="11" y1="26.5" x2="37.29" y2="26.5" width="0.1524" layer="16"/>
+<wire x1="9" y1="25" x2="11" y2="26.5" width="0.1524" layer="16"/>
 </signal>
 <signal name="KEY_C3">
 <contactref element="SC3" pad="2"/>
 <contactref element="J1" pad="48"/>
 <wire x1="39.33" y1="26" x2="42.06" y2="28.73" width="0.1524" layer="16"/>
-<wire x1="13" y1="20.762" x2="13" y2="24" width="0.1524" layer="16"/>
-<wire x1="13" y1="24" x2="15" y2="26" width="0.1524" layer="16"/>
+<wire x1="13" y1="20.762" x2="13" y2="24.5" width="0.1524" layer="16"/>
+<wire x1="13" y1="24.5" x2="15" y2="26" width="0.1524" layer="16"/>
 <wire x1="15" y1="26" x2="39.33" y2="26" width="0.1524" layer="16"/>
 </signal>
 <signal name="KEY_C4">
 <contactref element="SC4" pad="2"/>
 <contactref element="J1" pad="46"/>
-<wire x1="17" y1="20.762" x2="17" y2="23" width="0.1524" layer="16"/>
-<wire x1="17" y1="23" x2="19" y2="25" width="0.1524" layer="16"/>
-<wire x1="40.87" y1="25" x2="44.6" y2="28.73" width="0.1524" layer="16"/>
-<wire x1="19" y1="25" x2="40.87" y2="25" width="0.1524" layer="16"/>
+<wire x1="17" y1="20.762" x2="17" y2="24" width="0.1524" layer="16"/>
+<wire x1="17" y1="24" x2="19" y2="25.5" width="0.1524" layer="16"/>
+<wire x1="41.37" y1="25.5" x2="44.6" y2="28.73" width="0.1524" layer="16"/>
+<wire x1="19" y1="25.5" x2="41.37" y2="25.5" width="0.1524" layer="16"/>
 </signal>
 <signal name="KEY_D2">
 <contactref element="J1" pad="44"/>
 <contactref element="SD2" pad="2"/>
-<wire x1="47.14" y1="28.73" x2="-155.238" y2="-45" width="0" layer="19" extent="1-1"/>
+<wire x1="47.14" y1="28.73" x2="28.238" y2="20" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_D3">
 <contactref element="J1" pad="42"/>
 <contactref element="SD3" pad="2"/>
-<wire x1="49.68" y1="28.73" x2="-151.238" y2="-45" width="0" layer="19" extent="1-1"/>
+<wire x1="49.68" y1="28.73" x2="32.238" y2="20" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_D4">
 <contactref element="J1" pad="40"/>
 <contactref element="SD4" pad="2"/>
-<wire x1="52.22" y1="28.73" x2="-155.238" y2="-51" width="0" layer="19" extent="1-1"/>
+<wire x1="52.22" y1="28.73" x2="36.238" y2="20" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_E2">
 <contactref element="J1" pad="38"/>
 <contactref element="SE2" pad="2"/>
-<wire x1="54.76" y1="28.73" x2="-155.238" y2="-69" width="0" layer="19" extent="1-1"/>
+<wire x1="54.76" y1="28.73" x2="48.238" y2="20" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_E3">
 <contactref element="J1" pad="36"/>
 <contactref element="SE3" pad="2"/>
-<wire x1="57.3" y1="28.73" x2="-155.238" y2="-75" width="0" layer="19" extent="1-1"/>
+<wire x1="57.3" y1="28.73" x2="52.238" y2="20" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_E4">
 <contactref element="J1" pad="34"/>
 <contactref element="SE4" pad="2"/>
-<wire x1="59.84" y1="28.73" x2="-155.238" y2="-81" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$21">
-<contactref element="J1" pad="26"/>
+<wire x1="59.84" y1="28.73" x2="56.238" y2="20" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_F2">
 <contactref element="J1" pad="24"/>
 <contactref element="SF2" pad="2"/>
-<wire x1="-155.238" y1="-105" x2="72.54" y2="28.73" width="0" layer="19" extent="1-1"/>
+<wire x1="68.238" y1="20" x2="72.54" y2="28.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_F3">
 <contactref element="J1" pad="22"/>
 <contactref element="SF3" pad="2"/>
-<wire x1="-155.238" y1="-111" x2="75.08" y2="28.73" width="0" layer="19" extent="1-1"/>
+<wire x1="72.238" y1="20" x2="75.08" y2="28.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_F4">
 <contactref element="J1" pad="20"/>
 <contactref element="SF4" pad="2"/>
-<wire x1="-155.238" y1="-117" x2="77.62" y2="28.73" width="0" layer="19" extent="1-1"/>
+<wire x1="76.238" y1="20" x2="77.62" y2="28.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_G2">
 <contactref element="J1" pad="18"/>
 <contactref element="SG2" pad="2"/>
-<wire x1="-155.238" y1="-159" x2="80.16" y2="28.73" width="0" layer="19" extent="1-1"/>
+<wire x1="88.238" y1="20" x2="80.16" y2="28.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_G3">
 <contactref element="J1" pad="16"/>
 <contactref element="SG3" pad="2"/>
-<wire x1="-155.238" y1="-165" x2="82.7" y2="28.73" width="0" layer="19" extent="1-1"/>
+<wire x1="92.238" y1="20" x2="82.7" y2="28.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_G4">
 <contactref element="J1" pad="14"/>
 <contactref element="SG4" pad="2"/>
-<wire x1="-155.238" y1="-171" x2="85.24" y2="28.73" width="0" layer="19" extent="1-1"/>
+<wire x1="96.238" y1="20" x2="85.24" y2="28.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_A2">
 <contactref element="J1" pad="12"/>
 <contactref element="SA2" pad="2"/>
-<wire x1="-155.238" y1="-195" x2="87.78" y2="28.73" width="0" layer="19" extent="1-1"/>
+<wire x1="108.238" y1="20" x2="87.78" y2="28.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_A3">
 <contactref element="J1" pad="10"/>
 <contactref element="SA3" pad="2"/>
-<wire x1="-155.238" y1="-201" x2="90.32" y2="28.73" width="0" layer="19" extent="1-1"/>
+<wire x1="112.238" y1="20" x2="90.32" y2="28.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_A4">
 <contactref element="J1" pad="8"/>
 <contactref element="SA4" pad="2"/>
-<wire x1="-155.238" y1="-207" x2="92.86" y2="28.73" width="0" layer="19" extent="1-1"/>
+<wire x1="116.238" y1="20" x2="92.86" y2="28.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_B2">
 <contactref element="J1" pad="6"/>
 <contactref element="SB2" pad="2"/>
-<wire x1="-155.238" y1="-213" x2="95.4" y2="28.73" width="0" layer="19" extent="1-1"/>
+<wire x1="128.238" y1="20" x2="95.4" y2="28.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_B3">
 <contactref element="J1" pad="4"/>
 <contactref element="SB3" pad="2"/>
-<wire x1="-155.238" y1="-219" x2="97.94" y2="28.73" width="0" layer="19" extent="1-1"/>
+<wire x1="132.238" y1="20" x2="97.94" y2="28.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_B4">
 <contactref element="J1" pad="2"/>
 <contactref element="SB4" pad="2"/>
-<wire x1="-155.238" y1="-225" x2="100.48" y2="28.73" width="0" layer="19" extent="1-1"/>
+<wire x1="136.238" y1="20" x2="100.48" y2="28.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_B4B">
 <contactref element="J1" pad="1"/>
 <contactref element="SB4B" pad="2"/>
-<wire x1="-155.238" y1="-153" x2="100.48" y2="31.27" width="0" layer="19" extent="1-1"/>
+<wire x1="121.762" y1="40" x2="100.48" y2="31.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_B3B">
 <contactref element="J1" pad="3"/>
 <contactref element="SB3B" pad="2"/>
-<wire x1="-155.238" y1="-147" x2="97.94" y2="31.27" width="0" layer="19" extent="1-1"/>
+<wire x1="117.762" y1="40" x2="97.94" y2="31.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_B2B">
 <contactref element="J1" pad="5"/>
 <contactref element="SB2B" pad="2"/>
-<wire x1="-155.238" y1="-141" x2="95.4" y2="31.27" width="0" layer="19" extent="1-1"/>
+<wire x1="113.762" y1="40" x2="95.4" y2="31.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_A4B">
 <contactref element="J1" pad="7"/>
 <contactref element="SA4B" pad="2"/>
-<wire x1="-155.238" y1="-135" x2="92.86" y2="31.27" width="0" layer="19" extent="1-1"/>
+<wire x1="101.762" y1="40" x2="92.86" y2="31.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_A3B">
 <contactref element="J1" pad="9"/>
 <contactref element="SA3B" pad="2"/>
-<wire x1="-155.238" y1="-129" x2="90.32" y2="31.27" width="0" layer="19" extent="1-1"/>
+<wire x1="97.762" y1="40" x2="90.32" y2="31.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_A2B">
 <contactref element="J1" pad="11"/>
 <contactref element="SA2B" pad="2"/>
-<wire x1="-155.238" y1="-123" x2="87.78" y2="31.27" width="0" layer="19" extent="1-1"/>
+<wire x1="93.762" y1="40" x2="87.78" y2="31.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_G4B">
 <contactref element="J1" pad="13"/>
 <contactref element="SG4B" pad="2"/>
-<wire x1="85.24" y1="31.27" x2="-155.238" y2="-99" width="0" layer="19" extent="1-1"/>
+<wire x1="85.24" y1="31.27" x2="81.762" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_G3B">
 <contactref element="J1" pad="15"/>
 <contactref element="SG3B" pad="2"/>
-<wire x1="82.7" y1="31.27" x2="-155.238" y2="-93" width="0" layer="19" extent="1-1"/>
+<wire x1="82.7" y1="31.27" x2="77.762" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_G2B">
 <contactref element="J1" pad="17"/>
 <contactref element="SG2B" pad="2"/>
-<wire x1="80.16" y1="31.27" x2="-155.238" y2="-87" width="0" layer="19" extent="1-1"/>
+<wire x1="80.16" y1="31.27" x2="73.762" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_E4B">
 <contactref element="J1" pad="39"/>
 <contactref element="SE4B" pad="2"/>
-<wire x1="52.22" y1="31.27" x2="-155.238" y2="-63" width="0" layer="19" extent="1-1"/>
+<wire x1="52.22" y1="31.27" x2="41.762" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_E3B">
 <contactref element="J1" pad="41"/>
 <contactref element="SE3B" pad="2"/>
-<wire x1="49.68" y1="31.27" x2="-151.238" y2="-57" width="0" layer="19" extent="1-1"/>
+<wire x1="49.68" y1="31.27" x2="37.762" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_E2B">
 <contactref element="J1" pad="43"/>
 <contactref element="SE2B" pad="2"/>
-<wire x1="47.14" y1="31.27" x2="-155.238" y2="-57" width="0" layer="19" extent="1-1"/>
+<wire x1="47.14" y1="31.27" x2="33.762" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_A">
 <contactref element="R13" pad="1"/>
@@ -2169,9 +2168,9 @@ design rules under a new name.</description>
 <contactref element="SA4" pad="1"/>
 <contactref element="SA2" pad="1"/>
 <wire x1="-126.58" y1="129.54" x2="106.19" y2="12.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-195" x2="-126.58" y2="129.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-201" x2="-156.762" y2="-195" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-207" x2="-156.762" y2="-201" width="0" layer="19" extent="1-1"/>
+<wire x1="109.762" y1="20" x2="-126.58" y2="129.54" width="0" layer="19" extent="1-1"/>
+<wire x1="113.762" y1="20" x2="109.762" y2="20" width="0" layer="19" extent="1-1"/>
+<wire x1="117.762" y1="20" x2="113.762" y2="20" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_B">
 <contactref element="R15" pad="1"/>
@@ -2180,9 +2179,9 @@ design rules under a new name.</description>
 <contactref element="SB2" pad="1"/>
 <contactref element="SB4" pad="1"/>
 <wire x1="-136.74" y1="129.54" x2="126.19" y2="12.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-213" x2="-136.74" y2="129.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-219" x2="-156.762" y2="-213" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-225" x2="-156.762" y2="-219" width="0" layer="19" extent="1-1"/>
+<wire x1="129.762" y1="20" x2="-136.74" y2="129.54" width="0" layer="19" extent="1-1"/>
+<wire x1="133.762" y1="20" x2="129.762" y2="20" width="0" layer="19" extent="1-1"/>
+<wire x1="137.762" y1="20" x2="133.762" y2="20" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_F">
 <contactref element="R9" pad="1"/>
@@ -2191,9 +2190,9 @@ design rules under a new name.</description>
 <contactref element="SF2" pad="1"/>
 <contactref element="SF4" pad="1"/>
 <wire x1="66.19" y1="12.54" x2="-52.92" y2="160.02" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-105" x2="66.19" y2="12.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-111" x2="-156.762" y2="-105" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-117" x2="-156.762" y2="-111" width="0" layer="19" extent="1-1"/>
+<wire x1="69.762" y1="20" x2="66.19" y2="12.54" width="0" layer="19" extent="1-1"/>
+<wire x1="73.762" y1="20" x2="69.762" y2="20" width="0" layer="19" extent="1-1"/>
+<wire x1="77.762" y1="20" x2="73.762" y2="20" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_E">
 <contactref element="R7" pad="1"/>
@@ -2201,9 +2200,9 @@ design rules under a new name.</description>
 <contactref element="SE3" pad="1"/>
 <contactref element="SE2" pad="1"/>
 <contactref element="SE4" pad="1"/>
-<wire x1="-156.762" y1="-75" x2="-156.762" y2="-81" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-69" x2="-156.762" y2="-75" width="0" layer="19" extent="1-1"/>
-<wire x1="46.19" y1="12.54" x2="-156.762" y2="-69" width="0" layer="19" extent="1-1"/>
+<wire x1="53.762" y1="20" x2="57.762" y2="20" width="0" layer="19" extent="1-1"/>
+<wire x1="49.762" y1="20" x2="53.762" y2="20" width="0" layer="19" extent="1-1"/>
+<wire x1="46.19" y1="12.54" x2="49.762" y2="20" width="0" layer="19" extent="1-1"/>
 <wire x1="-47.84" y1="160.02" x2="46.19" y2="12.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KEY_D">
@@ -2212,43 +2211,43 @@ design rules under a new name.</description>
 <contactref element="SD3" pad="1"/>
 <contactref element="SD2" pad="1"/>
 <contactref element="SD4" pad="1"/>
-<wire x1="-156.762" y1="-45" x2="-156.762" y2="-51" width="0" layer="19" extent="1-1"/>
-<wire x1="-152.762" y1="-45" x2="-156.762" y2="-45" width="0" layer="19" extent="1-1"/>
-<wire x1="26.19" y1="12.54" x2="-152.762" y2="-45" width="0" layer="19" extent="1-1"/>
+<wire x1="29.762" y1="20" x2="37.762" y2="20" width="0" layer="19" extent="1-1"/>
+<wire x1="33.762" y1="20" x2="29.762" y2="20" width="0" layer="19" extent="1-1"/>
+<wire x1="26.19" y1="12.54" x2="33.762" y2="20" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.76" y1="160.02" x2="26.19" y2="12.54" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$12">
+<signal name="KEY_EB">
 <contactref element="R47" pad="1"/>
 <contactref element="E2B" pad="SW1"/>
 <contactref element="SE3B" pad="1"/>
 <contactref element="SE2B" pad="1"/>
 <contactref element="SE4B" pad="1"/>
-<wire x1="-156.762" y1="-57" x2="-156.762" y2="-63" width="0" layer="19" extent="1-1"/>
-<wire x1="-152.762" y1="-57" x2="-156.762" y2="-57" width="0" layer="19" extent="1-1"/>
-<wire x1="36.19" y1="52.54" x2="-152.762" y2="-57" width="0" layer="19" extent="1-1"/>
+<wire x1="32.238" y1="40" x2="40.238" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="36.238" y1="40" x2="32.238" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="36.19" y1="52.54" x2="36.238" y2="40" width="0" layer="19" extent="1-1"/>
 <wire x1="-22.44" y1="153.67" x2="36.19" y2="52.54" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$13">
+<signal name="KEY_GB">
 <contactref element="R49" pad="1"/>
 <contactref element="G2B" pad="SW1"/>
 <contactref element="SG3B" pad="1"/>
 <contactref element="SG2B" pad="1"/>
 <contactref element="SG4B" pad="1"/>
-<wire x1="-156.762" y1="-93" x2="-156.762" y2="-99" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-87" x2="-156.762" y2="-93" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.6" y1="153.67" x2="-156.762" y2="-87" width="0" layer="19" extent="1-1"/>
+<wire x1="76.238" y1="40" x2="80.238" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="72.238" y1="40" x2="76.238" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="-32.6" y1="153.67" x2="72.238" y2="40" width="0" layer="19" extent="1-1"/>
 <wire x1="76.19" y1="52.54" x2="-32.6" y2="153.67" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$14">
+<signal name="KEY_AB">
 <contactref element="R51" pad="1"/>
 <contactref element="A2B" pad="SW1"/>
 <contactref element="SA3B" pad="1"/>
 <contactref element="SA2B" pad="1"/>
 <contactref element="SA4B" pad="1"/>
 <wire x1="-42.76" y1="153.67" x2="96.19" y2="52.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-123" x2="-42.76" y2="153.67" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-129" x2="-156.762" y2="-123" width="0" layer="19" extent="1-1"/>
-<wire x1="-156.762" y1="-135" x2="-156.762" y2="-129" width="0" layer="19" extent="1-1"/>
+<wire x1="92.238" y1="40" x2="-42.76" y2="153.67" width="0" layer="19" extent="1-1"/>
+<wire x1="96.238" y1="40" x2="92.238" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="100.238" y1="40" x2="96.238" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
